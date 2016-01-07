@@ -66,6 +66,7 @@ First create this layout:
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
+        android:layout_gravity="fill_vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <include layout="@layout/content_layout" />
